@@ -1,0 +1,42 @@
+.menu {
+    width: 100%;
+    background: rgba(55, 1, 100, 0.671);
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: rgba(55, 1, 100, 0.835);
+}
+.menu li{
+    display: inline-block;
+    margin: 10px, 20px;
+}
+.menu li a{
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.menu li a:hover{
+    background: #ccc;
+    color: #fff;
+
+}
+/* estilos de tablas */
+table{
+    border:2px solid rgba(55, 1, 100, 0.835);
+    border-collapse: collapse;
+    
+}
+table td{
+    border:2px solid rgba(55, 1, 100, 0.835);
+    padding: 20px;
+}
+table tr:hover{
+    background: silver;
+}
+table td:hover{
+    background: rgba(227, 114, 250, 0.74);
+}
+
